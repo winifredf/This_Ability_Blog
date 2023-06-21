@@ -6,6 +6,7 @@ Store index.html in templates folder created in root directory. Add to settings.
 Ceate a database to store all blog posts.
 Ensure all models are migrated to database.
 Use Django and Python for Backend development.
+Access and Utilize Django Admin to access all data pertaining to you website.
 As a bonus, try to deploy Blog app using AWS.
 Incorporate html
 Use POST and GET and other CRUD functionality to create your Blog post.
