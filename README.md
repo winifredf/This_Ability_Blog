@@ -8,6 +8,7 @@ Ensure all models are migrated to database.
 Use Django and Python for Backend development.
 Access and Utilize Django Admin to access all data pertaining to you website. Create a super user to be able to login to Django admin with Username and Password.
 You should be able to create a new post in Django Admin.
+Ensure the website is dynamic and not static.
 As a bonus, try to deploy Blog app using AWS.
 Incorporate html
 Use POST and GET and other CRUD functionality to create your Blog post.
