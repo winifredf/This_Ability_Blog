@@ -7,4 +7,4 @@ def index(request):
     return render(request, 'index.html', {'posts': posts})
 
 def post(request):
-    return render(request, 'post.html')
+    return render(request, 'posts.html')
