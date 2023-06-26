@@ -10,14 +10,14 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #f1f1f1;
+  background: #261875;
 }
 
 .header {
   padding: 2px;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: rgb(162, 172, 237);
 }
 
 .leftcolumn {   
@@ -55,7 +55,7 @@ body {
   <div class="leftcolumn">
     {% for post in posts reversed %}
     <div class="card">
-      <a style="text-decoration: none; color: pink;" href="/post/{{post.id}}">
+      <a style="text-decoration: none; color: rgb(254, 253, 253);" href="/post/{{post.id}}">
         <h2>{{post.title}}</h2>
         <h5>{{post.created_at}}</h5>
         <p>{{post.body|truncatewords:20}}</p>
