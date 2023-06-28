@@ -15,5 +15,6 @@ def login(request):
     else: return ('User could not be authenticated. Please try again.')
 
 def logout(request):
-    return render(request, 'logout.html')
+    logout(request)
+    return render(request, 'index.html')
 
