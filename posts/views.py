@@ -10,7 +10,9 @@ def register(request):
     return render(request, 'register.html')
 
 def login(request):
-    return render(request, 'login.html')
+    if  username = request.POST.get('username') && password = request.POST.get('password')
+        return render(request, 'login.html')
+    else: return ('User could not be authenticated. Please try again.')
 
 def logout(request):
     return render(request, 'logout.html')
