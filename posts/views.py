@@ -8,7 +8,3 @@ def index(request):
 
 def register(request):
     return render(request, 'register.html')
-
-def post(request, pk):
-    posts = Post.objects.get(id=pk)
-    return render(request, 'posts.html', {'posts': posts})
