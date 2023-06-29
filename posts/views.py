@@ -6,11 +6,14 @@ def index(request):
     posts = Post.objects.all()
     return render(request, 'index.html', {'posts': posts})
 
-def register(request):
-    return render(request, 'register.html')
+def template(request):
+    return render(request, 'template.html')
+
+    def register(request):
+        return render(request, 'register.html')
 
 def login(request):
-    if  username = request.POST.get('username') && password = request.POST.get('password')
+    if  "username" == request.POST.get('username') and "password" == request.POST.get('password'):
         return render(request, 'login.html')
     else: return ('User could not be authenticated. Please try again.')
 
