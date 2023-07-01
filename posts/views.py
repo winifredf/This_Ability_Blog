@@ -1,5 +1,7 @@
 from typing import Any
 from django.shortcuts import render
+from django.contrib.auth import logout
+from django.contrib.auth.models import User
 from .models import Post
 
 # Create your views here.
